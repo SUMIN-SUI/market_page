@@ -1,0 +1,49 @@
+.header.flex {
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  padding: 20px;
+}
+
+.header-logo {
+  margin-right: 20px;
+}
+
+.logo {
+  /* background로 이미지 넣기 */
+  font-size: 30px;
+  font-weight: 900;
+  padding: 14px;
+}
+
+.header-menu .flex {
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu > ul > li {
+  margin-right: 16px;
+  background-color: beige;
+  padding: 10px 16px;
+}
+
+.search_icon {
+  /* display: none; */
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.search_bar {
+}
+
+.menu_icon {
+  /* display: none; */
+  font-size: 22px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.chat_Btn {
+  font-size: 16px;
+  font-weight: 900;
+}
