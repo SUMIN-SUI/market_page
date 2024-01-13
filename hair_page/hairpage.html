@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script
+      src="https://kit.fontawesome.com/b669fcd44b.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        font-family: "Orbit", sans-serif;
+        font-size: 16px;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      input {
+        border: none;
+        background-color: transparent;
+      }
+
+      button {
+        font-family: "Orbit", sans-serif;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header class="header flex">
+        <div class="user-info flex">
+          <div class="sign_in">
+            <a href="#">로그인</a>
+          </div>
+          <div class="sign_up">
+            <a href="../signup_page/signup.html">회원가입</a>
+          </div>
+          <button class="cart">장바구니</button>
+        </div>
+
+        <div class="header-section flex">
+          <div class="header-logo">
+            <a href="#" class="logo">BlendSoap</a>
+          </div>
+
+          <nav class="header-menu">
+            <ul class="flex">
+              <li>
+                <a href="#" class="selected">HAIR</a>
+              </li>
+              <li>
+                <a href="#">BODY</a>
+              </li>
+              <li>
+                <a href="#">FACE</a>
+              </li>
+              <li>
+                <a href="#">LIFE</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="hearder-search flex">
+            <input type="text" class="search_bar" placeholder="검색" />
+            <button class="search_icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- main -->
+      <div class="main">
+        <section class="hair-section flex">
+          <div class="hair-section_content">
+            <h3 class="hair_heading">HAIR</h3>
+            <p class="hair_desc">
+              모발 탈락 수 개선율 <strong>67.29%</strong> <br />
+              두피 보습 개선율 <strong>43.21%</strong><br />
+              검증된 두피, 모발 개선 효과
+            </p>
+            <a href="#" class="hair_btn"> &nbsp;더보기 ></a>
+          </div>
+        </section>
+
+        <section class="material flex">
+          <h3 class="material-heading">주요성분</h3>
+          <div class="material-items flex">
+            <div class="m_item">
+              <img src="../img/baobob.jpg" alt="바오밥 나무사진" />
+              <p>바오밥나무 오일</p>
+            </div>
+            <div class="m_item">
+              <img src="../img/blackbean.jpg" alt="검은콩사진" />
+              <p>검은콩</p>
+            </div>
+            <div class="m_item">
+              <img src="../img/kelp.jpg" alt="다시마사진" />
+              <p>다시마 추출물</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="hair-items">
+          <div class="products-list">
+            <h3>Shampoo Bar</h3>
+            <ul class="shampoo flex">
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt class="item_img">
+                      <img src="../img/soap_baobab.jpg" alt="바오밥 샴푸바" />
+                    </dt>
+                    <dd class="item-data">
+                      <p>바오밥 샴푸바</p>
+                      <span>10,000원</span>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt class="item_img">
+                      <img
+                        src="../img/soap_blackbean.jpg"
+                        alt="검은콩 샴푸바"
+                      />
+                    </dt>
+                    <dd class="item-data">
+                      <p>검은콩 샴푸바</p>
+                      <span>10,000원</span>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt class="item_img">
+                      <img src="../img/soap_kelp.jpg" alt="다시마 샴푸바" />
+                    </dt>
+                    <dd class="item-data">
+                      <p>다시마 샴푸바</p>
+                      <span>10,000원</span>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt class="item_img">
+                      <img src="../img/soap_blue.jpg" alt="블루비오틴 샴푸바" />
+                    </dt>
+                    <dd class="item-data">
+                      <p>블루비오틴 샴푸바</p>
+                      <span>13,000원</span>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="products-list">
+            <h3>Treatment Bar</h3>
+            <ul class="treatment flex">
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt class="item_img">
+                      <img
+                        src="../img/treatment_yellow.jpg"
+                        alt="탄력 트린트먼트바"
+                      />
+                    </dt>
+                    <dd class="item-data">
+                      <p>탄력 트린트먼트바</p>
+                      <span>16,000원</span>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt class="item_img">
+                      <img
+                        src="../img/treatment_pink.jpg"
+                        alt="손상 트린트먼트바"
+                      />
+                    </dt>
+                    <dd class="item-data">
+                      <p>손상 트린트먼트바</p>
+                      <span>16,000원</span>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="banner flex">
+          <div class="banner-content">
+            <h3>
+              고체뷰티의 시작 <br />
+              비누가 세상을 구할 수 있습니다
+            </h3>
+            <p>플라스틱 재사용보다 무사용을 우선합니다</p>
+            <a href="#" target="_blank">SOLID OVER LIQUID ></a>
+          </div>
+        </section>
+      </div>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="brand-info">
+          <a href="#">회사소개</a>
+          <a href="#">이용약관</a>
+          <a href="#">개인정보·처리방침</a>
+        </div>
+
+        <div class="line-copyright">© BlendSoap | All right reserved.</div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.footer {
+  font-size: 0.9rem;
+  color: white;
+  background-color: rgba(108, 117, 125, 0.8);
+  padding: 20px 30px;
+}
+
+.brand-info > a {
+  padding-right: 8px;
+}
+
+.brand-info > a:hover {
+  color: black;
+}
+
+.brand-info > a:nth-child(1),
+.brand-info > a:nth-child(2) {
+  border-right: 1px solid #6c757d;
+}
