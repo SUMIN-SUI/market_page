@@ -25,7 +25,7 @@
 .hair-section_content > .hair_desc {
   font-size: 1.1rem;
   line-height: 1.4rem;
-  font-weight: 350;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
@@ -39,6 +39,19 @@
 .hair-section_content > .hair_btn:hover {
   color: #fff;
   border-bottom: 1px solid #fff;
+}
+
+@media screen and (max-width: 781px) {
+  .hair-section_content > .hair_heading {
+    font-size: 1.8rem;
+    margin-bottom: 3px;
+  }
+
+  .hair-section_content > .hair_desc {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3px;
+  }
 }
 
 /* material */
@@ -70,6 +83,21 @@
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 781px) {
+  .material.flex {
+    padding: 20px 30px;
+  }
+
+  .material-heading {
+    text-align: start;
+  }
+
+  .m_item > img {
+    width: 130px;
+    height: 110px;
+  }
+}
+
 /* hair-items */
 
 .hair-items {
@@ -79,7 +107,7 @@
 }
 
 .products-list > h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -95,10 +123,17 @@
   transform: scale(1.1);
 }
 
-.shampoo.flex {
-  justify-content: space-between;
+.shampoo-bar.flex {
+  justify-content: space-around;
   align-items: center;
   padding: 50px 0;
+}
+
+.shampoo_1.flex,
+.shampoo_2.flex {
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .treatment.flex {
@@ -116,6 +151,31 @@
   width: 200px;
   height: 200px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 781px) {
+  .hair-items {
+    padding: 30px 30px;
+    text-align: center;
+  }
+
+  .products-list > h3 {
+    text-align: start;
+  }
+
+  .shampoo-bar.flex {
+    flex-direction: column;
+  }
+
+  .shampoo_1.flex {
+    margin-bottom: 30px;
+  }
+
+  .shampoo_1.flex,
+  .shampoo_2.flex {
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }
 
 /* banner */
@@ -136,6 +196,7 @@
 
 .banner-content > h3 {
   font-size: 1.2rem;
+  font-weight: 700;
   line-height: 1.8rem;
   margin-bottom: 4px;
 }
@@ -143,9 +204,22 @@
 .banner-content > a {
   display: block;
   text-decoration: underline;
-  margin-top: 14px;
+  margin-top: 12px;
 }
 
 .banner-content > a:hover {
   color: black;
+}
+
+@media screen and (max-width: 781px) {
+  .banner-content > h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    margin-bottom: 2px;
+  }
+
+  .banner-content > a {
+    margin-top: 8px;
+  }
 }

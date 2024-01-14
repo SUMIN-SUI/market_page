@@ -1,7 +1,7 @@
 .footer {
   font-size: 0.9rem;
   color: white;
-  background-color: rgba(108, 117, 125, 0.8);
+  background-color: #6c757d;
   padding: 20px 30px;
 }
 
@@ -15,5 +15,5 @@
 
 .brand-info > a:nth-child(1),
 .brand-info > a:nth-child(2) {
-  border-right: 1px solid #6c757d;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
