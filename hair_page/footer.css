@@ -1,12 +1,19 @@
 .footer {
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.9rem;
   color: white;
   background-color: #6c757d;
   padding: 20px 30px;
 }
 
+.brand-info {
+  flex-direction: column;
+}
+
 .brand-info > a {
   padding-right: 8px;
+  transition: color 200ms ease-in;
 }
 
 .brand-info > a:hover {
@@ -16,4 +23,18 @@
 .brand-info > a:nth-child(1),
 .brand-info > a:nth-child(2) {
   border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.download > .app {
+  font-size: 20px;
+  color: white;
+  transition: color 200ms ease-in;
+}
+
+.download > .app:nth-child(1) {
+  margin-right: 10px;
+}
+
+.download > .app:hover {
+  color: black;
 }
