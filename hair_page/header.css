@@ -23,7 +23,7 @@
 .cart {
   color: white;
   font-size: 0.8rem;
-  padding: 0 6px;
+  padding: 0 10px;
   transition: color 200ms ease-in;
 }
 
@@ -91,7 +91,7 @@
   font-size: 0.8rem;
   color: black;
   padding: 4px 18px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 3px solid rgba(0, 0, 0, 0.3);
   border-radius: 14px;
   margin-right: 8px;
 }
@@ -103,6 +103,7 @@
 .search_icon {
   font-size: 1.3rem;
   cursor: pointer;
+  transition: color 200ms ease-in;
 }
 
 .menu_icon {
@@ -111,6 +112,7 @@
   color: white;
   margin-left: 10px;
   cursor: pointer;
+  transition: color 200ms ease-in;
 }
 
 .search_icon:hover,

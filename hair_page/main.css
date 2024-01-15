@@ -6,14 +6,11 @@
   flex-direction: column;
   justify-content: center;
   color: white;
+  padding: 20px 30px;
   background-image: url(../img/shampoo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 20% 25%;
-}
-
-.hair-section_content {
-  padding-left: 30px;
 }
 
 .hair-section_content > .hair_heading {
@@ -30,15 +27,16 @@
 }
 
 .hair-section_content > .hair_btn {
-  color: black;
+  color: #fff;
   font-size: 0.9rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #fff;
   cursor: pointer;
+  transition: all 200ms ease-in;
 }
 
 .hair-section_content > .hair_btn:hover {
-  color: #fff;
-  border-bottom: 1px solid #fff;
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 @media screen and (max-width: 781px) {
@@ -203,11 +201,14 @@
 
 .banner-content > a {
   display: block;
+  font-weight: 500;
   text-decoration: underline;
   margin-top: 12px;
+  transition: all 200ms ease-in;
 }
 
 .banner-content > a:hover {
+  font-weight: 600;
   color: black;
 }
 

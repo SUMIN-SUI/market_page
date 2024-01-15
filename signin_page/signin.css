@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Orbit", sans-serif;
+  font-size: 16px;
+  background-color: #fffef1;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.container.flex {
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.signin-form.flex {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  padding: 50px 30px;
+  border: 3px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.signin-form h1 {
+  letter-spacing: 0.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sing-in.flex {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sing-in > .input {
+  width: 70%;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sing-in > .input > input {
+  width: 90%;
+  height: auto;
+  font-size: 1rem;
+  padding: 10px 10px;
+}
+
+.sing-in > .input:nth-child(1) {
+  border-bottom: none;
+}
+
+.signin_btn {
+  width: 70%;
+  height: auto;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  background-color: rgba(16, 6, 159, 0.9);
+  padding: 16px 0;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.find.flex {
+  margin: auto;
+}
+
+.find.flex > li {
+  display: block;
+  padding: 0 20px;
+  border-right: 1px solid #6c757d;
+}
+
+.find.flex > li:last-child {
+  border-right: none;
+}
+
+.find.flex > li > a {
+  color: #6c757d;
+}
+
+.find.flex > li > a:hover {
+  color: black;
+}
+
+.x_btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+}
